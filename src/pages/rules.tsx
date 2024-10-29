@@ -30,8 +30,8 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                     content="Descubra as regras e fórmulas usadas para calcular os impostos na nossa calculadora."
                 />
                 <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://seu-dominio.com/rules" />
-                <meta property="og:image" content="https://seu-dominio.com/images/og-image-rules.jpg" />
+                <meta property="og:url" content="https://impostonobrasil.com/rules" />
+                <meta property="og:image" content="https://impostonobrasil.com/images/og-image-rules.jpg" />
                 <meta property="og:locale" content="pt_BR" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Regras de Cálculo - Entenda como os impostos são calculados" />
@@ -39,8 +39,8 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                     name="twitter:description"
                     content="Conheça as fórmulas e alíquotas utilizadas para calcular os impostos."
                 />
-                <meta name="twitter:image" content="https://seu-dominio.com/images/og-image-rules.jpg" />
-                <link rel="canonical" href="https://seu-dominio.com/rules" />
+                <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image-rules.jpg" />
+                <link rel="canonical" href="https://impostonobrasil.com/rules" />
             </Head>
             <NavBar />
             <AdvertisementBanner startScreen />

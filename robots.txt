@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://seu-dominio.com/sitemap.xml
+Sitemap: https://impostonobrasil.com/sitemap.xml

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://impostonobrasil.com
+
+# Sitemaps
+Sitemap: https://impostonobrasil.com/sitemap.xml

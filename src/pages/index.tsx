@@ -17,15 +17,16 @@ const CalculatorPage = () => {
                     name="keywords"
                     content="Impostos no Brasil, Calculadora de Impostos, Quanto eu pago de imposto, Imposto de Renda, ICMS, PIS, COFINS, Tributação, Economia"
                 />
-                <meta name="author" content="Seu Nome ou Empresa" />
+                <meta name="author" content="Natan Tavares" />
+                <meta name="author" content="Gabriel Max" />
                 <meta property="og:title" content="Calculadora de Impostos - Saiba quanto você paga de impostos" />
                 <meta
                     property="og:description"
                     content="Descubra o valor total de impostos que você paga no Brasil. Calcule impostos sobre sua renda e despesas mensais."
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://seu-dominio.com" />
-                <meta property="og:image" content="https://seu-dominio.com/images/og-image.jpg" />
+                <meta property="og:url" content="https://impostonobrasil.com" />
+                <meta property="og:image" content="https://impostonobrasil.com/images/og-image.jpg" />
                 <meta property="og:locale" content="pt_BR" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Calculadora de Impostos - Saiba quanto você paga de impostos" />
@@ -33,8 +34,8 @@ const CalculatorPage = () => {
                     name="twitter:description"
                     content="Use nossa calculadora para descobrir o total de impostos que você paga no Brasil."
                 />
-                <meta name="twitter:image" content="https://seu-dominio.com/images/og-image.jpg" />
-                <link rel="canonical" href="https://seu-dominio.com" />
+                <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image.jpg" />
+                <link rel="canonical" href="https://impostonobrasil.com" />
             </Head>
             <NavBar />
             <AdvertisementBanner startScreen />
