@@ -1,31 +1,45 @@
+// pages/index.js
 import Head from 'next/head';
-import NavBar from '../components/Navbar';
-import AdvertisementBanner from '../components/AdvertisementBanner';
 import CalculatorForm from '../components/CalculatorForm';
 
-const Home = () => {
+const CalculatorPage = () => {
     return (
-        <div>
+        <>
             <Head>
-                <title>Calculadora de Impostos Mensais</title>
+                <title>Calculadora de Impostos - Descubra quanto você paga de impostos no Brasil</title>
                 <meta
                     name="description"
-                    content="Calcule quanto de impostos você paga mensalmente com base em suas despesas."
+                    content="Use nossa calculadora para descobrir quanto você paga de impostos no Brasil. Calcule impostos sobre renda, consumo, financiamento de carro e casa."
                 />
                 <meta
                     name="keywords"
-                    content="calculadora de impostos, impostos mensais, cálculo de despesas"
+                    content="Impostos no Brasil, Calculadora de Impostos, Quanto eu pago de imposto, Imposto de Renda, ICMS, PIS, COFINS, Tributação, Economia"
                 />
+                <meta name="author" content="Seu Nome ou Empresa" />
+                <meta property="og:title" content="Calculadora de Impostos - Saiba quanto você paga de impostos" />
+                <meta
+                    property="og:description"
+                    content="Descubra o valor total de impostos que você paga no Brasil. Calcule impostos sobre sua renda e despesas mensais."
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://seu-dominio.com" />
+                <meta property="og:image" content="https://seu-dominio.com/images/og-image.jpg" />
+                <meta property="og:locale" content="pt_BR" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Calculadora de Impostos - Saiba quanto você paga de impostos" />
+                <meta
+                    name="twitter:description"
+                    content="Use nossa calculadora para descobrir o total de impostos que você paga no Brasil."
+                />
+                <meta name="twitter:image" content="https://seu-dominio.com/images/og-image.jpg" />
+                <link rel="canonical" href="https://seu-dominio.com" />
             </Head>
-            <NavBar />
-            <AdvertisementBanner />
             <main>
-                <h1>Calculadora de Impostos Mensais</h1>
+                <h1>Calculadora de Imposto</h1>
                 <CalculatorForm />
             </main>
-            <AdvertisementBanner />
-        </div>
+        </>
     );
 };
 
-export default Home;
+export default CalculatorPage;

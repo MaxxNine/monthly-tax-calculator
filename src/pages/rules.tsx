@@ -12,13 +12,35 @@ interface RulesProps {
 
 const Rules: React.FC<RulesProps> = ({ content }) => {
     return (
-        <div>
+        <>
             <Head>
-                <title>Regras de Cálculo - Calculadora de Impostos Mensais</title>
+                <title>Regras de Cálculo - Entenda como os impostos são calculados</title>
                 <meta
                     name="description"
-                    content="Saiba como os cálculos de impostos são realizados na Calculadora de Impostos Mensais."
+                    content="Saiba como os impostos são calculados na nossa calculadora. Entenda as alíquotas de Imposto de Renda, INSS, FGTS, ICMS, PIS, COFINS e mais."
                 />
+                <meta
+                    name="keywords"
+                    content="Regras de Cálculo, Cálculo de Impostos, Impostos no Brasil, Alíquotas, Imposto de Renda, INSS, FGTS, ICMS, PIS, COFINS"
+                />
+                <meta name="author" content="Seu Nome ou Empresa" />
+                <meta property="og:title" content="Regras de Cálculo - Entenda como os impostos são calculados" />
+                <meta
+                    property="og:description"
+                    content="Descubra as regras e fórmulas usadas para calcular os impostos na nossa calculadora."
+                />
+                <meta property="og:type" content="article" />
+                <meta property="og:url" content="https://seu-dominio.com/rules" />
+                <meta property="og:image" content="https://seu-dominio.com/images/og-image-rules.jpg" />
+                <meta property="og:locale" content="pt_BR" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Regras de Cálculo - Entenda como os impostos são calculados" />
+                <meta
+                    name="twitter:description"
+                    content="Conheça as fórmulas e alíquotas utilizadas para calcular os impostos."
+                />
+                <meta name="twitter:image" content="https://seu-dominio.com/images/og-image-rules.jpg" />
+                <link rel="canonical" href="https://seu-dominio.com/rules" />
             </Head>
             <NavBar />
             <AdvertisementBanner />
@@ -29,7 +51,7 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                 </article>
             </main>
             <AdvertisementBanner />
-        </div>
+        </>
     );
 };
 
