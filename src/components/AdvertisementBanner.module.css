@@ -4,3 +4,13 @@
     padding: 1rem;
     margin: 1rem 0;
 }
+
+.wrapper {
+    padding: 1rem 0;
+}
+@media screen and (max-width: 768px) {
+    
+.marginTop { 
+    padding-top: 80px;
+}
+}

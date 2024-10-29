@@ -12,6 +12,7 @@ import Bills from './Expenses/Bills';
 import CarFinancing from './Expenses/CarFinancing';
 import HouseFinancing from './Expenses/HouseFinancing';
 import { SELIC_HOJE } from '@/constants/taxes';
+import Link from 'next/link';
 
 // Helper function to format currency values
 const formatCurrency = (value: number) => {
@@ -247,7 +248,7 @@ const CalculatorForm = () => {
 
 
                     <div className="results-link">
-                        <a href="/rules">Veja como o cálculo é feito</a>
+                        <Link href="/rules">Veja como o cálculo é feito</Link>
                     </div>
                 </div>
             )}

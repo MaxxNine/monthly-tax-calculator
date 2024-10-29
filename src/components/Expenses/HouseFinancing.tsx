@@ -23,7 +23,7 @@ const HouseFinancing: React.FC = () => {
         if (houseFinancing) {
             calculateLoanDetails();
         }
-    }, [houseFinancing, houseValue, initialPayment, interestRate, loanTermMonths, useSelicRate]);
+    }, [calculateLoanDetails, houseFinancing, houseValue, initialPayment, interestRate, loanTermMonths, useSelicRate]);
 
     return (
         <div>

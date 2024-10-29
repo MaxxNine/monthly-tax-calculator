@@ -1,9 +1,11 @@
+/* components/Navbar.module.css */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2f855a; /* Changed to a shade of green */
+  background-color: #2f855a; /* Shade of green */
   padding: 1rem 2rem;
+  position: relative;
 }
 
 .logo a {
@@ -25,4 +27,91 @@
 .navLinks a {
   color: white;
   text-decoration: none;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+ 
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 50px; /* Adjust based on navbar height */
+    left: 0;
+    background-color: #2f855a;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .navLinks {
+    padding: 12px 0;
+    align-items: center;
+  }
+
+  .navLinks li {
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  /* Adjust logo and nav positioning */
+  .nav {
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .logo a {
+    font-size: 1.2rem; /* Adjust font size if needed */
+  }
+
+  /* Hamburger animation */
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+
+  .bar {
+    background-color: white;
+    transition: all 0.3s ease;
+  }
 }

@@ -1,4 +1,3 @@
-import { COFINS, ICMS, PIS } from '@/constants/taxes';
 import useExpenseStore from '../store/useExpenseStore';
 import { applyUsualFees } from '@/constants/functions';
 

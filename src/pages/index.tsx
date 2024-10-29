@@ -1,6 +1,8 @@
 // pages/index.js
 import Head from 'next/head';
 import CalculatorForm from '../components/CalculatorForm';
+import NavBar from '@/components/Navbar';
+import AdvertisementBanner from '@/components/AdvertisementBanner';
 
 const CalculatorPage = () => {
     return (
@@ -34,10 +36,15 @@ const CalculatorPage = () => {
                 <meta name="twitter:image" content="https://seu-dominio.com/images/og-image.jpg" />
                 <link rel="canonical" href="https://seu-dominio.com" />
             </Head>
+            <NavBar />
+            <AdvertisementBanner startScreen />
+
             <main>
                 <h1>Calculadora de Imposto</h1>
                 <CalculatorForm />
             </main>
+            <AdvertisementBanner />
+
         </>
     );
 };

@@ -43,7 +43,7 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                 <link rel="canonical" href="https://seu-dominio.com/rules" />
             </Head>
             <NavBar />
-            <AdvertisementBanner />
+            <AdvertisementBanner startScreen />
             <main>
                 <h1>Regras de Cálculo</h1>
                 <article>
