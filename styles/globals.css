@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #f0f4f8;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #2f855a;
+    /* Shade of green */
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #2f855a;
+    /* Shade of green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #276749;
+    /* Darker shade on hover */
+}
+
+form div {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #2f855a;
+    /* Shade of green */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.calculator-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.results {
+    margin-top: 2rem;
+}
+
+.results h2 {
+    text-align: center;
+    color: #2d3748;
+    /* Darker shade for contrast */
+}
+
+.results-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    /* Light gray border */
+    border-radius: 8px;
+    background-color: #ffffff;
+    /* White background for contrast */
+}
+
+.results-section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #2f855a;
+}
+
+.results-section p,
+.results-section li {
+    margin: 0.5rem 0;
+    color: #4a5568;
+    /* Dark gray for text */
+}
+
+.results-section strong {
+    color: #2d3748;
+    /* Darker text for emphasis */
+}
+
+.results-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.results-section ul li {
+    padding: 0.25rem 0;
+}
+
+.results-section ul li:last-child {
+    border-top: 1px solid #e2e8f0;
+    padding: 1rem 0;
+}
+
+.results-link {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .calculator-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .results {
+        margin-top: 3rem;
+    }
+}
