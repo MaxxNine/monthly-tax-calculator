@@ -37,7 +37,7 @@ const CarFinancing: React.FC = () => {
                         value={carStartingAmount}
                         onChange={(e) => setCarStartingAmount(parseFloat(e.target.value))}
                     />
-                    <label>Dívida Mensal:</label>
+                    <label>Valor da Parcela Mensal:</label>
                     <input
                         type="number"
                         value={carMonthlyDebt}

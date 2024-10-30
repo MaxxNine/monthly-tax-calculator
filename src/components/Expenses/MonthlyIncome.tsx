@@ -6,7 +6,7 @@ const MonthlyIncome: React.FC = () => {
 
     return (
         <div>
-            <label>Salário Mensal Bruta:</label>
+            <label>Salário Mensal Bruto:</label>
             <input
                 type="number"
                 value={monthlyIncome}

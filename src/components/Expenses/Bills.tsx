@@ -25,7 +25,7 @@ const Bills: React.FC = () => {
                     checked={billsOption === 'approximate'}
                     onChange={() => setBillsOption('approximate')}
                 />
-                Valor Aproximado Total
+                Valor Total Aproximado;
             </label>
             <label>
                 <input
