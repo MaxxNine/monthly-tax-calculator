@@ -35,6 +35,7 @@ const CalculatorPage = () => {
                     content="Use nossa calculadora para descobrir o total de impostos que você paga no Brasil."
                 />
                 <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image.jpg" />
+                <meta name="google-adsense-account" content="ca-pub-5123942943777130" />
                 <link rel="canonical" href="https://impostonobrasil.com" />
             </Head>
             <NavBar />

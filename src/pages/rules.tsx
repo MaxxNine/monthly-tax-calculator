@@ -40,6 +40,7 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                     content="Conheça as fórmulas e alíquotas utilizadas para calcular os impostos."
                 />
                 <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image-rules.jpg" />
+                <meta name="google-adsense-account" content="ca-pub-5123942943777130" />
                 <link rel="canonical" href="https://impostonobrasil.com/rules" />
             </Head>
             <NavBar />
