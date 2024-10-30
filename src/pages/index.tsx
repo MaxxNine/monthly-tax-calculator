@@ -41,7 +41,9 @@ const CalculatorPage = () => {
             <AdvertisementBanner startScreen />
 
             <main>
-                <h1>Calculadora de Imposto</h1>
+                <div className='topo'>
+                    <h1>Calculadora de Imposto</h1>
+                </div>
                 <CalculatorForm />
             </main>
             <AdvertisementBanner />

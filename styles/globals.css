@@ -66,6 +66,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.topo {
+    text-align: center;
+}
+
 .calculator-form {
     max-width: 600px;
     margin: 0 auto;
