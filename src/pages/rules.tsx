@@ -42,15 +42,16 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                 />
                 <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image-rules.jpg" />
                 <link rel="canonical" href="https://impostonobrasil.com/rules" />
-                <Script
-                    src="https://alwingulla.com/88/tag.min.js"
-                    data-zone="111393"
-                    async
-                    data-cfasync="false"
-                    strategy="afterInteractive" // Loads the script after the page is interactive
-                />
+
 
             </Head>
+            <Script
+                src="https://alwingulla.com/88/tag.min.js"
+                data-zone="111393"
+                async
+                data-cfasync="false"
+                strategy="afterInteractive" // Loads the script after the page is interactive
+            />
             <NavBar />
             <AdvertisementBanner startScreen />
             <main>
