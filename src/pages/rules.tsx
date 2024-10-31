@@ -5,6 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import { GetStaticProps } from 'next';
 import ReactMarkdown from 'react-markdown';
+import Script from 'next/script';
 
 interface RulesProps {
     content: string;
@@ -40,8 +41,15 @@ const Rules: React.FC<RulesProps> = ({ content }) => {
                     content="Conheça as fórmulas e alíquotas utilizadas para calcular os impostos."
                 />
                 <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image-rules.jpg" />
-                <meta name="google-adsense-account" content="ca-pub-5123942943777130" />
                 <link rel="canonical" href="https://impostonobrasil.com/rules" />
+                <Script
+                    src="https://alwingulla.com/88/tag.min.js"
+                    data-zone="111393"
+                    async
+                    data-cfasync="false"
+                    strategy="afterInteractive" // Loads the script after the page is interactive
+                />
+
             </Head>
             <NavBar />
             <AdvertisementBanner startScreen />

@@ -3,6 +3,7 @@ import Head from 'next/head';
 import CalculatorForm from '../components/CalculatorForm';
 import NavBar from '@/components/Navbar';
 import AdvertisementBanner from '@/components/AdvertisementBanner';
+import Script from 'next/script';
 
 const CalculatorPage = () => {
     return (
@@ -35,8 +36,15 @@ const CalculatorPage = () => {
                     content="Use nossa calculadora para descobrir o total de impostos que você paga no Brasil."
                 />
                 <meta name="twitter:image" content="https://impostonobrasil.com/images/og-image.jpg" />
-                <meta name="google-adsense-account" content="ca-pub-5123942943777130" />
                 <link rel="canonical" href="https://impostonobrasil.com" />
+                <Script
+                    src="https://alwingulla.com/88/tag.min.js"
+                    data-zone="111393"
+                    async
+                    data-cfasync="false"
+                    strategy="afterInteractive" // Loads the script after the page is interactive
+                />
+
             </Head>
             <NavBar />
             <AdvertisementBanner startScreen />
